@@ -13,7 +13,7 @@ import { MaterialIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 const CapivaraLabScreen = () => {
   
 
-  //----------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 
   const [data, setData] = useState<{ day: string; value: number }[]>([]);
   const [ultimaLeitura, setUltimaLeitura] = useState<{
@@ -173,11 +173,7 @@ const CapivaraLabScreen = () => {
         </TouchableOpacity>
       </View>
       
-      {/* Footer */}
-      <View style={styles.footer}>
-        <Text style={styles.footerText}>© Capivara Solutions</Text>
-        <Text style={styles.footerText}>Todos os direitos reservados.</Text>
-      </View>
+    
     </SafeAreaView>
   );
 };
